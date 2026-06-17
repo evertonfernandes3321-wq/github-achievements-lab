@@ -1,0 +1,40 @@
+name: Docs Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  required-files:
+    name: Required documentation files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        shell: pwsh
+        run: |
+          $requiredFiles = @(
+            "README.md",
+            "ROADMAP.md",
+            "CHANGELOG.md",
+            "CONTRIBUTING.md",
+            "LICENSE",
+            "SECURITY.md",
+            ".gitignore"
+          )
+
+          $missing = $requiredFiles | Where-Object { -not (Test-Path -LiteralPath $_) }
+
+          if ($missing.Count -gt 0) {
+            Write-Error "Missing required files: $($missing -join ', ')"
+            exit 1
+          }
+
+          Write-Host "All required documentation files are present."
