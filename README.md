@@ -36,7 +36,7 @@ Para revisar pull requests, consulte o [REVIEWING.md](REVIEWING.md).
 
 Para praticar coautoria em commits, consulte o [COLLABORATION.md](COLLABORATION.md).
 
-Guias adicionais ficam em [`docs/`](docs/), incluindo [branches](docs/branching.md), [commits](docs/commits.md), [pull requests](docs/pull-requests.md), [checagem de segredos](docs/secret-checks.md) e [changelog](docs/changelog-guide.md).
+Guias adicionais ficam em [`docs/`](docs/), incluindo [branches](docs/branching.md), [commits](docs/commits.md), [pull requests](docs/pull-requests.md), [checagem de segredos](docs/secret-checks.md), [changelog](docs/changelog-guide.md) e [GitHub Actions](docs/github-actions.md).
 
 ## Escopo
 
