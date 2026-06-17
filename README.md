@@ -51,6 +51,7 @@ Este laboratorio cobre praticas de fluxo GitHub, documentacao, organizacao de re
 - Merge por squash para manter historico simples.
 - Registro de mudancas em changelog.
 - Planejamento incremental em roadmap.
+- Verificacao automatizada de arquivos documentais essenciais.
 
 ## Principios
 
