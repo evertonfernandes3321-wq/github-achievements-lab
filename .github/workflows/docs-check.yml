@@ -25,6 +25,7 @@ jobs:
             "ROADMAP.md",
             "CHANGELOG.md",
             "CONTRIBUTING.md",
+            "REVIEWING.md",
             "LICENSE",
             "SECURITY.md",
             ".gitignore"
