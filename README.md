@@ -26,6 +26,14 @@ Este laboratorio cobre praticas de fluxo GitHub, documentacao, organizacao de re
 - Documentacao clara para manutencao futura.
 - Verificacoes basicas de seguranca antes de publicar mudancas.
 
+## Fluxos praticados
+
+- Criacao de branch a partir da `main`.
+- Abertura de pull request com escopo documental claro.
+- Merge por squash para manter historico simples.
+- Registro de mudancas em changelog.
+- Planejamento incremental em roadmap.
+
 ## Principios
 
 - Git limpo, sem reescrita de historico compartilhado.
