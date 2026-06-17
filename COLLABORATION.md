@@ -16,3 +16,7 @@ Co-authored-by: Name <github-email@example.com>
 - Keep the pull request small and easy to review.
 - Describe the shared contribution in the pull request body.
 - Do not add personal data beyond what the contributor explicitly provided for the commit trailer.
+
+## Good use case
+
+A co-authored commit fits when two people discussed the change, shaped the content together or reviewed the final wording before the pull request was opened.
