@@ -26,6 +26,7 @@ jobs:
             "CHANGELOG.md",
             "CONTRIBUTING.md",
             "REVIEWING.md",
+            "COLLABORATION.md",
             "LICENSE",
             "SECURITY.md",
             ".gitignore"

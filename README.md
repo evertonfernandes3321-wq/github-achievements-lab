@@ -34,6 +34,8 @@ Leia o [CONTRIBUTING.md](CONTRIBUTING.md) antes de abrir uma mudanca. Prefira co
 
 Para revisar pull requests, consulte o [REVIEWING.md](REVIEWING.md).
 
+Para praticar coautoria em commits, consulte o [COLLABORATION.md](COLLABORATION.md).
+
 ## Escopo
 
 Este laboratorio cobre praticas de fluxo GitHub, documentacao, organizacao de repositorio e automacoes simples. Ele nao deve conter segredos, dados pessoais, credenciais, chaves privadas ou codigo de producao.
