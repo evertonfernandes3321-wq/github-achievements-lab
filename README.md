@@ -32,6 +32,8 @@ Este repositorio existe para treinar contribuicoes reais em um ambiente isolado,
 
 Leia o [CONTRIBUTING.md](CONTRIBUTING.md) antes de abrir uma mudanca. Prefira contribuicoes pequenas, com titulo claro e checklist de seguranca revisado.
 
+Para revisar pull requests, consulte o [REVIEWING.md](REVIEWING.md).
+
 ## Escopo
 
 Este laboratorio cobre praticas de fluxo GitHub, documentacao, organizacao de repositorio e automacoes simples. Ele nao deve conter segredos, dados pessoais, credenciais, chaves privadas ou codigo de producao.
